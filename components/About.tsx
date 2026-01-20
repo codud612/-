@@ -19,7 +19,7 @@ export const About: React.FC = () => {
             {/* ID Photo (증명사진) style small frame */}
             <div className="aspect-[3/4] bg-white overflow-hidden shadow-md border-[6px] border-white ring-1 ring-stone-100">
               <img 
-                src="https://raw.githubusercontent.com/codud612/-/c5ed8cd3f90b296797711e6518d4a5ebda5d9f4e/pksny6_81te-ygu2su_pksny5aoayygu2supksnxr87ajygu2su.jpg" 
+                src="https://raw.githubusercontent.com/codud612/-/64dfad59aec9262f73c4978aac51102a7117b82a/mail.jpg" 
                 alt="이채영 파티시에" 
                 className="w-full h-full object-cover transition-all duration-700"
               />
