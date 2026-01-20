@@ -50,13 +50,6 @@ export const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, isRe
               className="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500"></div>
-            
-            {/* Quote Overlay */}
-            <div className="absolute bottom-6 right-6 bg-white/90 backdrop-blur-sm p-4 max-w-xs transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 delay-100">
-              <p className="text-[11px] text-stone-500 font-light italic leading-relaxed">
-                "{experience.quote}"
-              </p>
-            </div>
           </div>
         </div>
       </div>
