@@ -16,7 +16,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, onCl
       <img 
         src={experience.image} 
         alt={experience.company} 
-        className="w-full h-full object-cover grayscale-[0.5] group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
+        className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
       />
       
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>

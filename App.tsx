@@ -52,7 +52,7 @@ const App: React.FC = () => {
           <ExperienceSection />
         </section>
 
-        <section id="skills" className="bg-stone-50">
+        <section id="skills" className="bg-[#f8f8f8]">
           <SkillsSection />
         </section>
 
